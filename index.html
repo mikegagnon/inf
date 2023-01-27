@@ -38,6 +38,10 @@
       .highlight {
         background-color: yellow;
       }
+
+      .ul {
+        text-decoration: underline;
+      }
     </style>
 
     
@@ -70,7 +74,7 @@
 Agency (<span class="highlight">DARPA</span>) released 10 red weather balloons scattered
 across the United States. In advance, <span class="highlight">DARPA</span> had issued a
 challenge: the first team to successfully report the location of
-all ten balloons will win $40,000.</p>
+all ten balloons will win <span class="highlight">$40,000</span>.</p>
         <!-- TODO: alt-text -->
         <a href="img/fast-bounty.jpg" class="btn btn-primary btn-lg" type="button">Read more...</a>
       </div>
@@ -82,6 +86,7 @@ all ten balloons will win $40,000.</p>
           <h2>Fast Bounty in the press</h2>
           <p><a href="https://www.wired.com/2011/07/darpas-secret-spy-machine/"><img src="img/40k-zoom.jpg" style="width: 100%"></a></p>
           <a href="https://www.wired.com/2011/07/darpas-secret-spy-machine/" class="btn btn-outline-light" type="button">Wired Magazine...</a>
+          <a href="https://www.science.org/doi/10.1126/science.1205869" class="btn btn-outline-light" type="button" style="margin-top: 10px;">Science...</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -89,9 +94,22 @@ all ten balloons will win $40,000.</p>
           <h2>Let's get rich!</h2>
           <p>You may only recruit people you personally know; invite only. If it works, then <span class="highlight">10 people</span> will <span class="highlight">win $2k each</span>, and $20k will be divided amongst our friends who recruited the winners.</p>
           <button class="btn btn-success" type="button" onclick='document.getElementById("how").style.display = "block"';>How to make money!</button>
-          <div id="how" style="display: none; margin-top: 20px;">Hai</div>
+          <div id="how" style="display: none; margin-top: 20px;">
+            <ol>
+              <li>Each of the top 10 <span class="ul">book purchasers</span> &ldquo;win&rdquo; a lot of books</li>
+              <li>Whoever &ldquo;recruits&rdquo; a <span class="ul">top-10 winning purchaser</span>, wins $2k</li>
+              <li>Whoever recruits a $2k winner, wins $1k</li>
+              <li>Whoever recruits a $1k winner, wins $500</li>
+              <li>Whoever recruits a $500 winner, wins $250</li>
+              <li>Etc...</li>
+              <li>Via the miracle of infinite regressions, total prize money = <span class="highlight">$40k</span>
+              <li>We must sell 5,000 books (total), together, before we can distribute any prize money. Also, we must have our book-sale profit in the bank, before distributing any prize money. Also, deadline TBD. Also, must sign contract to participate; invite only.</li>
+            </ol>
+
+          </div>
         </div>
       </div>
+        <img style="margin-top: 20px;" src="img/40k.png">
     </div>
 
     <footer class="pt-3 mt-4 text-muted border-top">

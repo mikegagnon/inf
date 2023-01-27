@@ -34,6 +34,10 @@
           font-size: 3.5rem;
         }
       }
+
+      .highlight {
+        background-color: yellow;
+      }
     </style>
 
     
@@ -62,7 +66,11 @@
       <div class="container-fluid py-5">
         <p>Sample chapter</p>
         <h1 class="display-5 fw-bold">Chapter 18: Fast Bounty</h1>
-        <p class="col-md-12 fs-4"><a href="img/fast-bounty.jpg"><img src="img/darpa.png" style="width: 100%"></p>
+        <p class="col-md-12 fs-4" style="font-family: serif;">On December 5, 2009, the Defense Advanced Research Projects
+Agency (<span class="highlight">DARPA</span>) released 10 red weather balloons scattered
+across the United States. In advance, <span class="highlight">DARPA</span> had issued a
+challenge: the first team to successfully report the location of
+all ten balloons will win $40,000.</p>
         <!-- TODO: alt-text -->
         <a href="img/fast-bounty.jpg" class="btn btn-primary btn-lg" type="button">Read more...</a>
       </div>
@@ -79,7 +87,7 @@
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
           <h2>Let's get rich!</h2>
-          <p>You may only recruit people you personally know.</p>
+          <p>You may only recruit people you personally know; invite only. If it works, then <span class="highlight">10 people</span> will <span class="highlight">win $2k each</span>, and $20k will be divided amongst our friends who recruited the winners.</p>
           <button class="btn btn-success" type="button" onclick='document.getElementById("how").style.display = "block"';>How to make money!</button>
           <div id="how" style="display: none; margin-top: 20px;">Hai</div>
         </div>
